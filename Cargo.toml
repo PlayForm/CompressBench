@@ -1,7 +1,6 @@
-[package]
-name = "bench-piscina"
-version = "0.1.0"
-edition = "2021"
+[[bin]]
+name = "Build"
+path = "build.rs"
 
 [build]
 target-dir = "Target"
@@ -10,9 +9,10 @@ target-dir = "Target"
 hyperfine = { version = "1.19.0" }
 unbug = { version = "0.4.0" }
 
-[[bin]]
-name = "Build"
-path = "build.rs"
-
 [features]
 default = []
+
+[package]
+edition = "2021"
+name = "bench-piscina"
+version = "0.1.0"
