@@ -2,9 +2,6 @@
 name = "Build"
 path = "build.rs"
 
-[build]
-target-dir = "Target"
-
 [dependencies]
 hyperfine = { version = "1.19.0" }
 unbug = { version = "0.4.0" }
@@ -13,6 +10,6 @@ unbug = { version = "0.4.0" }
 default = []
 
 [package]
-edition = "2021"
+edition = "2024"
 name = "bench-piscina"
 version = "0.1.0"
