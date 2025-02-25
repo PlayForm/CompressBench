@@ -11,7 +11,7 @@ export default async () => {
 		`All is well. ${
 			(
 				await (
-					await import("fs/promises")
+					await import("node:fs/promises")
 				).readFile("@Target/Test/Calculation.js")
 			).byteLength
 		} bytes`,

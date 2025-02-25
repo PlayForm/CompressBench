@@ -1,4 +1,4 @@
-export const { dirname, resolve } = await import("path");
+export const { dirname, resolve } = await import("node:path");
 
 export const { default: Piscina } = await import("piscina");
 
