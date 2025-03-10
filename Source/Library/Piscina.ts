@@ -2,7 +2,7 @@ export const { dirname, resolve } = await import("node:path");
 
 export const { default: Piscina } = await import("piscina");
 
-export const File = (await import("url")).fileURLToPath(import.meta.url);
+export const File = (await import("node:url")).fileURLToPath(import.meta.url);
 
 export const Calculation = new Piscina({
 	filename: resolve(`${dirname(File)}/../../Target/test/calculation.js`),
