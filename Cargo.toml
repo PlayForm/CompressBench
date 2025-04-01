@@ -4,8 +4,8 @@ path = "build.rs"
 
 [dependencies]
 hyperfine = { version = "1.19.0" }
-unbug = { version = "0.4.0" }
 indicatif = { version = "0.17.11" }
+unbug = { version = "0.4.0" }
 
 [features]
 default = []
